@@ -3,30 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Ana</title>
+    <title> Perfil Julia </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="header-nav">
-        <ul class="menu menu-principal">
-            <li class="menu-item">
-               <a href="#Home" class="menu-link active"></a> Home</li>
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="menu menu-principal">
+                <li class="menu-item">  
+                   <a href="#home" class="menu-link active"> Home </a>  
+                </li>
+                <li class="menu-item"> 
+                   <a href="#projetos" class="menu-link"> Projetos </a> 
+                </li>
+                <li class="menu-item">
+                    <a href="#sobre" class="menu-link"> Sobre </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contato" class="menu-link"> Contato </a>
+                </li>
+            </ul>
+        </nav>
 
-            <li class="menu-item">Projetos
-               <a href="#Projetos" class="menu-link"></a> </li>
+        <div class="header-logo">
+            <a href="#home"> 
+                <img src="img/logo.png" alt="" class="logo">
+                <img src="img/logo2.png" alt="" class="logo"> 
+            </a>
+        </div>  <!-- Fim Logo -->
 
-            <li class="menu-item">Sobre
-              <a href="#Sobre" class="menu-link"></a> </li>
+        <div class="header-toggle">
+            <i id="toggleTheme" class="bi bi-sun"> </i>
+        </div>
 
-            <li class="menu-item">Contato
-              <a href="#Contato" class="menu-link"></a> </li> 
+    </header>  <!-- FIM header -->
 
+    <!-- menu mobile -->
+    <nav class="nav-mobile">
+        <ul class="menu menu-mobile">
 
+            <li class="menu-item"> 
+                <a href="#home" class="menu-link active">  
+                    <i class="menu-icon bi bi-house-door"> </i>
+                    <span class="menu-text"> Home </span>
+                </a>  
+            </li> <!-- Li menu home -->
+
+            <li class="menu-item"> 
+                <a href="#projetos" class="menu-link">
+                    <i class="menu-icon bi bi-card-image"> </i>
+                    <span class="menu-text"> Projetos </span>
+                </a>  
+            </li> <!-- Li menu projetos -->
+
+            <li class="menu-item"> 
+                <a href="#sobre" class="menu-link"> 
+                    <i class="menu-icon bi bi-person"></i>
+                    <span class="menu-text"> Sobre </span>
+                </a>  
+            </li> <!-- Li menu Sobre -->
+
+            <li class="menu-item"> 
+                <a href="#contato" class="menu-link"> 
+                <i class="menu-icon bi bi-whatsapp"></i>
+                    <span class="menu-text"> Contato </span>
+                </a>  
+            </li> <!-- Li menu Sobre -->
+            
         </ul>
-    </nav>
-</header>
-    
-    
+    </nav>   <!-- Fim menu mobile -->
+
+    <main id="home">
+        <div class="main-content">
+            <h1>Julia Desenvolvedora web</h1>
+
+            <p>São Paulo - SP, Desenvolvedora web</p>
+
+           <!-- Redes Sociais -->
+            <ul class="menu menu-social">
+                <li>
+                    <a href="" class="menu-link">
+                        <i class="menu-icon bi bi-instagram"></i>
+                    </a>
+
+                </li>
+            </ul>
+
+        </div> <!-- Fim main-content -->
+
+        <div class="video">
+
+        </div>
+
+    </main>
+
+    <script src="./js/script.js"></script>
+   
 </body>
 </html>
